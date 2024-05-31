@@ -1,0 +1,25 @@
+.mother-box{
+    display: flex;
+    border: red 1px solid;
+    height: 100vh;
+    justify-content: center;
+}
+
+.box-big {
+    
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: relative;
+    
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

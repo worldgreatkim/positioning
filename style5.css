@@ -1,0 +1,25 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+
+}
+
+.box-left{
+    position: relative;
+    top: 50px;
+}
+
+.box-right{
+    position: relative;
+
+}
+
+.big-box{
+    width: 400px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}

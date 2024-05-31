@@ -1,0 +1,23 @@
+.mother{
+    display: flex;
+    flex-direction: column;
+    
+
+    border: 1px red solid;
+    height: 100vh;
+}
+
+.children{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+.children-center{
+    align-self: center;
+}
+
+.children-right{
+    align-self: flex-end;
+}
