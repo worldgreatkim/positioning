@@ -1,17 +1,20 @@
-.box{
+.box5{
     width: 100px;
-    height: 100px;
-    background-color: purple;
-
+  height: 100px;
+  background-color: purple;
+  color: white;
 }
 
-.box-left{
-    position: relative;
-    top: 50px;
+.box5-left{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-.box-right{
-    position: relative;
+.box5-right{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
 }
 
@@ -19,7 +22,9 @@
     width: 400px;
     height: 150px;
     background-color: black;
-    display: flex;
-    justify-content: space-between;
+    color: white;
+    position: absolute;
+    right:0px;
+    bottom:0px;
     
 }

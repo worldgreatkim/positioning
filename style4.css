@@ -1,18 +1,18 @@
-.box {
+.box4 {
     width: 100px;
     height: 100px;
     background-color: purple;
     color: white;
 }
 
-.box2 {
+.box4-1 {
     width: 100px;
     height: 100px;
     background-color: black;
     color: white;
 }
 
-.box-position{
+.box4-position{
     position: relative;
     left: 50px;
     bottom: 50px;    

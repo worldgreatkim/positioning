@@ -1,11 +1,11 @@
-.mother-box{
+.mother3-box{
     display: flex;
     border: red 1px solid;
-    height: 100vh;
+    height: 300px;
     justify-content: center;
 }
 
-.box-big {
+.box3-big {
     
     width: 500px;
     height: 500px;
@@ -15,7 +15,7 @@
     
 }
 
-.box {
+.box3 {
     height: 400px;
     width: 400px;
     background-color: purple;

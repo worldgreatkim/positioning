@@ -1,29 +1,124 @@
-.box{
+.mother {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    
+}
+
+.sub-mother {
+    display: flex;
+}
+
+.children{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    color: white;
+    
+}
+
+.empty{
+    margin-right: 5px;
+}
+
+.mother2{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+    height: 300px;
+}
+
+.children2{
     width: 100px;
     height: 100px;
-
+    color: white;
+    background-color: black;
 }
 
-.red{
-    background-color: red;
+.children2-center{
+    align-self: center;
 }
 
-.yellow{
-    background-color: yellow;
+.children2-right{
+    align-self: flex-end;
 }
 
-.blue{
-    background-color: blue;
+
+.mother3-box{
+    display: flex;
+    
+    height: 500px;
+    justify-content: center;
 }
 
-.locate{
-
-    position: fixed;
-    left: 30px;
-    top: 30px;
-}
-
-.locate1{
+.box3-big {
+    
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color: white;
     position: relative;
-    left: 30px;
+    
+}
+
+.box3 {
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+}
+
+.box4-1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.box4-position{
+    position: relative;
+    left: 50px;
+    bottom: 50px;    
+}
+
+.box5{
+    width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+
+.box5-left{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box5-right{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.big-box{
+    width: 400px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    
 }
